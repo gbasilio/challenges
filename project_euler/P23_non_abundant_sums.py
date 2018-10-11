@@ -25,8 +25,9 @@ sum_of_2_abundants = {}
 for i in range(0,len(abundant)):
     for y in range(i,len(abundant)):
         sum_abundant = abundant[i] + abundant[y]
-        if sum_abundant <= 28123:
-          sum_of_2_abundants[sum_abundant] = 1
+        sum_of_2_abundants[sum_abundant] = 1
+        if sum_abundant >= 28123:
+          break
 
 
 # find the sum of all the integers smaller or equal to 28123 that can't be written as a sum of 2 abundant numbers
