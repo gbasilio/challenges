@@ -1,3 +1,9 @@
+# After getting the right answer with this solution (using pattern search in strings) I realized that most people in the Project Euler forum 
+# prefer a mathematical approach using long division. 
+# That is possibly a better solution than mine as it works with recurring cycles of unlimited size. As for my solution, the size of the recurring 
+# cycle that can be found is limited by the precision used when calculating the fraction.
+
+
 import decimal
 import time
 
